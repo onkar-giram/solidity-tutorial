@@ -17,9 +17,6 @@ contract Payment {
     }
 }
 
-
-// inheritance by using is keyword 
-
 contract Payer is Payment {
     constructor(){}
 
@@ -27,9 +24,6 @@ contract Payer is Payment {
     return owner;
     }
 }
-
-
-// inheritance by creating an object for the smart contract 
 
 contract Caller {
     Payer person = new Payer();

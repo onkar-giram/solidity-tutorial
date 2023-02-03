@@ -3,7 +3,7 @@
 pragma solidity ^0.8.7;
 
 //Bit Wise operators excluded because I don't understand them
-
+//Assignment not included because it's easy ... [= =* =- =+ =/]
 
 // Arithmetic Operators
 contract ArithmeticOperators{
